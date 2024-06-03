@@ -9,7 +9,7 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-image: url('imagen01.jpeg');
+            background-image: url("/Images/imagen01.jpeg");
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -36,6 +36,10 @@
             box-sizing: border-box;
         }
         button {
+            background-color: red;
+            color: white;
+            }
+        .button {
             background-color: #007bff;
             color: white;
             border: none;
@@ -50,11 +54,6 @@
             margin: 4px 2px;
             transition-duration: 0.4s;
 
-        }
-        button:hover {
-            background-color: white;
-            color: black;
-            border: 2px solid #007bff;
         }
        .hyperlink {
             color: #007bff;
@@ -75,7 +74,7 @@
             <asp:HyperLink ID="HyperLink1" runat="server" CssClass="hyperlink">¡Quiero registrarme!</asp:HyperLink>
             <br />
             <br />
-            <asp:Button ID="btn_Entrar" runat="server" Text="Entrar" />
+            <asp:Button ID="btn_Entrar" runat="server" Text="Entrar" CssClass="button"/>
         </div>
     </form>
 </body>
