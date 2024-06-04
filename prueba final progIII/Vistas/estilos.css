@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("/Images/imagen01.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+form {
+    width: 300px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); 
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.labelPrincipal {
+    font-family: 'Arial', sans-serif; /* Tipografía clara y legible */
+    font-size: 30px; /* Tamaño de fuente adecuado */
+    font-weight: bold; /* Énfasis en el texto */
+    color: #333; /* Color de texto oscuro para contraste */
+    margin-bottom: 10px; /* Espaciado adecuado debajo del label */
+    display: block; /* Para asegurar que ocupe toda la línea */
+    width: 100%; /* Ancho completo para evitar problemas de alineación */
+    text-align:center;
+}
+/*label {
+    display: block;
+    margin-top: 20px;
+}*/
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+select {
+    
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.BotonPrincipal {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    cursor: pointer;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;*/
+    display: block; /* Para asegurar que ocupe toda la línea */
+    width: 100%; /* Ancho completo para evitar problemas de alineación */
+    text-align: center;
+}
+
+.BotonPrincipal:hover {
+    background-color: white;
+    color: black;
+}
+
+.hyperlink {
+    /*display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;*/
+    display: block; /* Para asegurar que ocupe toda la línea */
+    width: 100%; /* Ancho completo para evitar problemas de alineación */
+    text-align: center;
+}

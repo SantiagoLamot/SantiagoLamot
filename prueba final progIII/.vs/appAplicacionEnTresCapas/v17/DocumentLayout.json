@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\ventana_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\ventana_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +22,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "estilos.css",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\estilos.css",
+              "RelativeDocumentMoniker": "Vistas\\estilos.css",
+              "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\estilos.css",
+              "RelativeToolTip": "Vistas\\estilos.css",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-03T23:01:58.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Ventana_Registro.aspx",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx",
+              "RelativeDocumentMoniker": "Vistas\\Ventana_Registro.aspx",
+              "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx",
+              "RelativeToolTip": "Vistas\\Ventana_Registro.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-03T22:51:00.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Login.aspx",
               "RelativeDocumentMoniker": "Vistas\\Login.aspx",
               "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Login.aspx",
               "RelativeToolTip": "Vistas\\Login.aspx",
-              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-06-03T18:50:41.959Z",
               "EditorCaption": ""

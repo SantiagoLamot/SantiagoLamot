@@ -11,18 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Datos", "Datos\Datos.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{3D8D3091-251F-4024-8796-4A80B558A818}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Imagenes", "Imagenes", "{E9F0DD4D-5E2A-47E7-9D66-CC8D1D3059FE}"
-	ProjectSection(SolutionItems) = preProject
-		Imagenes\imagen01.jpeg = Imagenes\imagen01.jpeg
-	EndProjectSection
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wwwroot", "wwwroot", "{934EF5B7-1BD8-4FAD-B95A-873EB28EED82}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Images", "Images", "{354078D1-A232-42EF-90E8-6787277D54BC}"
-	ProjectSection(SolutionItems) = preProject
-		Imagenes\imagen01.jpeg = Imagenes\imagen01.jpeg
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,9 +36,6 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
-	EndGlobalSection
-	GlobalSection(NestedProjects) = preSolution
-		{354078D1-A232-42EF-90E8-6787277D54BC} = {934EF5B7-1BD8-4FAD-B95A-873EB28EED82}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8287F6D5-F685-45E9-8525-461C0CB117BD}
