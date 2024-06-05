@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Entidades
+﻿namespace Entidades
 {
-    internal class Usuario
+    public class Usuario
     {
         private string _NombreApellido;
         private string _DNI;
@@ -15,14 +9,19 @@ namespace Entidades
         private string _Email;
         private string _Contraseña;
         
-        Usuario()
+        public Usuario()
         { }
-        Usuario(string NombreApellido, string DNI, string Direccion, string Localidad, string Email, string Contraseña)
+        public Usuario(string NombreApellido, string DNI, string Direccion, string Localidad, string Email, string Contraseña)
         {
             _NombreApellido = NombreApellido;
             _DNI = DNI;
             _Direccion = Direccion;
             _Localidad = Localidad;
+            _Email = Email;
+            _Contraseña = Contraseña;
+        }
+        public Usuario(string Email, string Contraseña)
+        {
             _Email = Email;
             _Contraseña = Contraseña;
         }

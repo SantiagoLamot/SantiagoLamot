@@ -7,13 +7,13 @@ using Entidades;
 
 namespace Negocio
 {
-    internal class NegocioUsuario
+    public class NegocioUsuario
     {
         public NegocioUsuario()
         { }
         public bool IniciarSesion(Usuario usuario)
         {
-            Usuario us = new Usuario();
+            
             return false;
         }
     }
