@@ -20,16 +20,16 @@ namespace Vistas
         protected void cvDNIrepetido_ServerValidate(object source, ServerValidateEventArgs args)
         {
             usuario.DNI = tb_DNI.Text;
-            if (!NegocioUsuario.ExisteDNICliente(args.Value.ToString()))
+            if (!NegocioUsuario.ExisteDNICliente(args.Value.ToString()) && btn_Registrarse.Enabled == true)
             {
                 args.IsValid = true;
-                return;
+                
             }
             else
             {
                 args.IsValid = false;
+                btn_Registrarse.Enabled = false; // Deshabilita el botón si la validación falla
             }
-                
         }
 
         protected void cvEmailRepetido_ServerValidate(object source, ServerValidateEventArgs args)
@@ -38,25 +38,32 @@ namespace Vistas
             if (!NegocioUsuario.ExisteEmailCliente(args.Value.ToString()))
             {
                 args.IsValid = true;
-                return;
             }
             else
             {
                 args.IsValid = false;
-                
+                btn_Registrarse.Enabled = false; // Deshabilita el botón si la validación falla
             }
         }
 
         protected void btn_Registrarse_Click(object sender, EventArgs e)
         {
-            int usuariosAgregados = 0;
-            usuariosAgregados = NegocioUsuario.AgregarCliente(new Usuario(tb_NombreApellido.Text, tb_DNI.Text, tb_Direccion.Text,
-                                                        "Tapalque", tb_Email.Text, tb_Contraseña.Text));
-            if(usuariosAgregados==1)
+            if (btn_Registrarse.Enabled) // Verifica que el botón esté habilitado
             {
-                lblInfo.Text = "Se agrego correctamente el usuario "+ tb_NombreApellido.Text;
+                int usuariosAgregados = 0;
+                usuariosAgregados = NegocioUsuario.AgregarCliente(new Usuario(tb_NombreApellido.Text, tb_DNI.Text, tb_Direccion.Text,
+                                                                        "Tapalque", tb_Email.Text, tb_Contraseña.Text));
+                if (usuariosAgregados == 1)
+                {
+                    lblInfo.Text = "Se agrego correctamente el usuario " + tb_NombreApellido.Text;
+                }
+                LimpiarPantallaRegistro();
             }
-            LimpiarPantallaRegistro();
+            else
+            {
+                btn_Registrarse.Enabled = true; // Si estaba desabilitado se vuelve a habilitar luego de omitir el alta del usuario
+            }
+
         }
 
         private void LimpiarPantallaRegistro()
