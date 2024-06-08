@@ -19,11 +19,13 @@
             <asp:Label ID="Label2" runat="server" Text="Contraseña: "></asp:Label>
             <asp:TextBox ID="tb_Contraseña" runat="server" OnTextChanged="TextBox1_TextChanged" TextMode="Password"></asp:TextBox>
             <br />
+            <asp:Label ID="lblMensaje" runat="server"></asp:Label>
+            <br />
             <br />
             <asp:HyperLink ID="HyperLink1" runat="server" CssClass="hyperlink" NavigateUrl="~/Ventana_Registro.aspx">¡Quiero registrarme!</asp:HyperLink>
             <br />
             <br />
-            <asp:Button ID="btn_Entrar" runat="server" Text="Entrar" CssClass="BotonPrincipal" OnClick="btn_Entrar_Click"/>
+            <asp:Button ID="btn_Entrar" runat="server" Text="Entrar" CssClass="BotonPrincipal" OnClick="btn_Entrar_Click" />
         </div>
     </form>
 </body>

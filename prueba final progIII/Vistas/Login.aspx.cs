@@ -13,7 +13,7 @@ namespace Vistas
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            ValidationSettings.UnobtrusiveValidationMode = UnobtrusiveValidationMode.None;
         }
 
         protected void TextBox1_TextChanged(object sender, EventArgs e)
@@ -27,13 +27,14 @@ namespace Vistas
             
             if(negocioUsuario.IniciarSesion(new Usuario(tb_Usuario.Text, tb_Contraseña.Text)))
             {
-                //Inicia
+                lblMensaje.Text = "Sesion iniciada con exito";
             }
             else
             {
                 //Email o contraseña invalido
                 tb_Usuario.Text= string.Empty;
                 tb_Contraseña.Text = string.Empty;
+                lblMensaje.Text = "Error al iniciar sesion";
             }
         }
     }

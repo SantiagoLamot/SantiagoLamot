@@ -38,3 +38,5 @@ C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\obj
 C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\obj\Debug\Vistas.csproj.Up2Date
 C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\obj\Debug\Vistas.dll
 C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\obj\Debug\Vistas.pdb
+C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\bin\Datos.dll
+C:\Users\Santiago\Documents\GitHub\SantiagoLamot\prueba final progIII\Vistas\bin\Datos.pdb
