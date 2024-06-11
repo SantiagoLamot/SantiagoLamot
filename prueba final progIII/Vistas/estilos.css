@@ -8,16 +8,6 @@
     padding: 0;
 }
 
-.bodyBlanco {
-    font-family: Arial, sans-serif;
-    background-image: url("/Images/imagen02.jpeg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    margin: 0;
-    padding: 0;
-}
-
 form {
     width: 300px;
     margin: 100px auto;
@@ -84,68 +74,76 @@ input[type="text"], input[type="password"], input[type="email"], select {
 
 }
 
+
+
 /*PAGINA DE INICIO*/
 
 /* Estilos generales */
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
-    padding: 0;
+    font-family: Arial, sans-serif;
 }
-/* Contenedor principal */
-.container {
+
+/* Estilos para el header */
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+    /* Estilos para el SVG dentro del header */
+    header svg:first-child,
+    header svg:last-child {
+        width: 24px;
+        height: 24px;
+        fill: currentColor;
+    }
+
+    /* Estilos para el texto dentro del div del header */
+    header > div {
+        text-align: center;
+    }
+
+/* Estilos para el nav */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+
+    /* Estilos para el button dentro del nav */
+    nav button {
+        /* Estilos para el botón "Ver Productos" */
+    }
+
+    /* Estilos para el div con SVGs dentro del nav */
+    nav > div {
+        display: flex;
+        gap: 1rem;
+    }
+
+/* Estilos para el main */
+main {
     padding: 20px;
-    background-color: #f9f9f9;
-}
-/* Menú desplegable */
-.dropdown {
-    position: relative;
 }
 
-.dropdown-button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
+/* Estilos para el grid dentro del main */
+.main-grid {
+    display: grid;
+    gap: 1rem;
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    top: 100%;
-    left: 0;
-    background-color: #fff;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+/* Estilos para el aside */
+aside {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
 }
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-.dropdown-option {
-    color: red;
-    text-decoration: none;
-    display: block;
-    padding: 5px;
-}
-
-/* Cuadro de usuario */
-.user-box {
-    background-color: #fff;
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: center;
-}
-/* Carrito de compras */
-.cart {
-    font-size: 24px;
-    color: #333;
-}
-
-
 /*
 Estilo General del Cuerpo ( body)
 font-family: Arial, sans-serif;: Defina la familia de fuentes para todo el contenido del cuerpo. Si Arial no está disponible, se usará cualquier fuente de tipo sans-serif.

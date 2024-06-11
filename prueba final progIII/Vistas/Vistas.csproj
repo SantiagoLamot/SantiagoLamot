@@ -73,6 +73,7 @@
     <Content Include="Login.aspx" />
     <Content Include="TablaDeVentas.aspx" />
     <Content Include="Ventana_Registro.aspx" />
+    <Content Include="VerBebidas.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,6 +105,13 @@
     </Compile>
     <Compile Include="Ventana_Registro.aspx.designer.cs">
       <DependentUpon>Ventana_Registro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="VerBebidas.aspx.cs">
+      <DependentUpon>VerBebidas.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="VerBebidas.aspx.designer.cs">
+      <DependentUpon>VerBebidas.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
