@@ -3,11 +3,23 @@
   "WorkspaceRootPath": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\ventana_registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\ventana_registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\tabladeventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\tabladeventas.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\vistas\\ventana_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\inicio.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\estilos.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|c:\\users\\santiago\\documents\\github\\santiagolamot\\prueba final progiii\\vistas\\ventana_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
       "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\ventana_registro.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
     },
     {
@@ -15,24 +27,24 @@
       "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\login.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A4C216F3-A59B-4839-B6EF-FAD4D5B53B53}|Negocio\\Negocio.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A4C216F3-A59B-4839-B6EF-FAD4D5B53B53}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\datos\\daocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|solutionrelative:datos\\daocliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
-      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\login.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3D8D3091-251F-4024-8796-4A80B558A818}|Entidades\\Entidades.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D8D3091-251F-4024-8796-4A80B558A818}|Entidades\\Entidades.csproj|solutionrelative:entidades\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\vistas\\ventana_registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DABFE379-3322-446A-B7D1-27FEE8CC6AEA}|Vistas\\Vistas.csproj|solutionrelative:vistas\\ventana_registro.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A4C216F3-A59B-4839-B6EF-FAD4D5B53B53}|Negocio\\Negocio.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A4C216F3-A59B-4839-B6EF-FAD4D5B53B53}|Negocio\\Negocio.csproj|solutionrelative:negocio\\negociousuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F374D7-3C9A-463D-ABD3-202C298C314B}|Datos\\Datos.csproj|solutionrelative:datos\\accesodatos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,11 +54,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "Inicio.aspx",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Inicio.aspx",
+              "RelativeDocumentMoniker": "Vistas\\Inicio.aspx",
+              "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Inicio.aspx",
+              "RelativeToolTip": "Vistas\\Inicio.aspx",
+              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T02:19:37.684Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TablaDeVentas.aspx",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\TablaDeVentas.aspx",
+              "RelativeDocumentMoniker": "Vistas\\TablaDeVentas.aspx",
+              "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\TablaDeVentas.aspx",
+              "RelativeToolTip": "Vistas\\TablaDeVentas.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-06-11T01:22:41.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "estilos.css",
+              "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\estilos.css",
+              "RelativeDocumentMoniker": "Vistas\\estilos.css",
+              "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\estilos.css",
+              "RelativeToolTip": "Vistas\\estilos.css",
+              "ViewState": "AQIAAEQAAAAAAAAAAAAAwFYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-06-11T01:07:24.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Login.aspx",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Login.aspx",
               "RelativeDocumentMoniker": "Vistas\\Login.aspx",
@@ -59,7 +110,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Login.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Login.aspx.cs",
               "RelativeDocumentMoniker": "Vistas\\Login.aspx.cs",
@@ -72,33 +123,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Ventana_Registro.aspx",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx",
               "RelativeDocumentMoniker": "Vistas\\Ventana_Registro.aspx",
               "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx",
               "RelativeToolTip": "Vistas\\Ventana_Registro.aspx",
-              "LogicalView": "7651a702-06e5-11d1-8ebd-00a0c90f26ea",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
               "WhenOpened": "2024-06-07T20:25:06.338Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 8,
               "Title": "Ventana_Registro.aspx.cs",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx.cs",
               "RelativeDocumentMoniker": "Vistas\\Ventana_Registro.aspx.cs",
               "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Vistas\\Ventana_Registro.aspx.cs",
               "RelativeToolTip": "Vistas\\Ventana_Registro.aspx.cs",
-              "ViewState": "AQIAACcAAAAAAAAAAAAiwD8AAACDAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAACEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T21:36:47.234Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "NegocioUsuario.cs",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Negocio\\NegocioUsuario.cs",
               "RelativeDocumentMoniker": "Negocio\\NegocioUsuario.cs",
@@ -111,7 +162,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "AccesoDatos.cs",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Datos\\AccesoDatos.cs",
               "RelativeDocumentMoniker": "Datos\\AccesoDatos.cs",
@@ -124,13 +175,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "DaoCliente.cs",
               "DocumentMoniker": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Datos\\DaoCliente.cs",
               "RelativeDocumentMoniker": "Datos\\DaoCliente.cs",
               "ToolTip": "C:\\Users\\Santiago\\Documents\\GitHub\\SantiagoLamot\\prueba final progIII\\Datos\\DaoCliente.cs",
               "RelativeToolTip": "Datos\\DaoCliente.cs",
-              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBwAAABFAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAqwBQAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-07T19:29:32.217Z",
               "EditorCaption": ""

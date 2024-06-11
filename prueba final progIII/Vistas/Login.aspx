@@ -8,7 +8,8 @@
     <title>Ingresar</title>
     <link rel="stylesheet" type="text/css" href="estilos.css"/>
 </head>
-<body>
+<body class="bodyLogoColor">
+
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label0" runat="server" Text="Bienvenido" CssClass="labelPrincipal"></asp:Label>

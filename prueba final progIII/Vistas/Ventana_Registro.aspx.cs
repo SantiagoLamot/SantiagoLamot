@@ -20,7 +20,7 @@ namespace Vistas
         protected void cvDNIrepetido_ServerValidate(object source, ServerValidateEventArgs args)
         {
             usuario.DNI = tb_DNI.Text;
-            if (!NegocioUsuario.ExisteDNICliente(args.Value.ToString()) && btn_Registrarse.Enabled == true)
+            if (!NegocioUsuario.ExisteDNICliente(args.Value.ToString()))
             {
                 args.IsValid = true;
                 
@@ -48,7 +48,7 @@ namespace Vistas
 
         protected void btn_Registrarse_Click(object sender, EventArgs e)
         {
-            if (btn_Registrarse.Enabled) // Verifica que el botón esté habilitado
+            if (btn_Registrarse.Enabled) // Verifica que el botón esté habilitado para el alta del cliente, si esta deshabilitado es porque no paso alguna validacion
             {
                 int usuariosAgregados = 0;
                 usuariosAgregados = NegocioUsuario.AgregarCliente(new Usuario(tb_NombreApellido.Text, tb_DNI.Text, tb_Direccion.Text,
@@ -61,7 +61,7 @@ namespace Vistas
             }
             else
             {
-                btn_Registrarse.Enabled = true; // Si estaba desabilitado se vuelve a habilitar luego de omitir el alta del usuario
+                btn_Registrarse.Enabled = true; // Si estaba deshabilitado se vuelve a habilitar luego de omitir el alta del cliente
             }
 
         }
