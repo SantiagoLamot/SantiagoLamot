@@ -7,6 +7,15 @@
     margin: 0;
     padding: 0;
 }
+.bodyBlanco {
+    font-family: Arial, sans-serif;
+    background-image: url("/Images/imagen02.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
 
 form {
     width: 300px;
@@ -16,6 +25,15 @@ form {
     background-color: rgba(255, 255, 255, 0.7);
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.formInicio {
+    width: 700px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
 }
 
 .labelPrincipal {
@@ -73,130 +91,3 @@ input[type="text"], input[type="password"], input[type="email"], select {
     padding: 20px;
 
 }
-
-
-
-/*PAGINA DE INICIO*/
-
-/* Estilos generales */
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-}
-
-/* Estilos para el header */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-    background-color: white;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-}
-
-    /* Estilos para el SVG dentro del header */
-    header svg:first-child,
-    header svg:last-child {
-        width: 24px;
-        height: 24px;
-        fill: currentColor;
-    }
-
-    /* Estilos para el texto dentro del div del header */
-    header > div {
-        text-align: center;
-    }
-
-/* Estilos para el nav */
-nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem;
-}
-
-    /* Estilos para el button dentro del nav */
-    nav button {
-        /* Estilos para el botón "Ver Productos" */
-    }
-
-    /* Estilos para el div con SVGs dentro del nav */
-    nav > div {
-        display: flex;
-        gap: 1rem;
-    }
-
-/* Estilos para el main */
-main {
-    padding: 20px;
-}
-
-/* Estilos para el grid dentro del main */
-.main-grid {
-    display: grid;
-    gap: 1rem;
-}
-
-/* Estilos para el aside */
-aside {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    padding: 1rem;
-}
-/*
-Estilo General del Cuerpo ( body)
-font-family: Arial, sans-serif;: Defina la familia de fuentes para todo el contenido del cuerpo. Si Arial no está disponible, se usará cualquier fuente de tipo sans-serif.
-background-image: url("/Images/imagen01.jpeg");: Establece una imagen de fondo para el cuerpo.
-background-size: cover;: Asegúrese de que la imagen de fondo cubra todo el área disponible sin distorsionarse.
-background-position: center;: Centra la imagen de fondo dentro del elemento.
-background-repeat: no-repeat;: Evita que la imagen de fondo se repita.
-margin: 0;: Elimine el margen externo del cuerpo.
-padding: 0;: Elimine el relleno interno del cuerpo.
-
-Formulario ( form)
-width: 300px;: Establece el ancho del formulario a 300 píxeles.
-margin: 100px auto;: Coloque el formulario centrado verticalmente en su contenedor con un margen superior de 100 píxeles.
-padding: 20px;: Agrega un relleno interno alrededor del contenido del formulario.
-background-color: rgba(255, 255, 255, 0.7);: Aplica un fondo blanco semitransparente al formulario.
-border-radius: 10px;: Redondea las esquinas del formulario.
-box-shadow: 0 0 10px rgba(0,0,0,0.1);: Aplica una sombra alrededor del formulario para darle profundidad.
-
-Etiqueta Principal ( labelPrincipal)
-font-family: Arial, sans-serif;: Defina la familia de fuentes para este selector específico.
-font-size: 30px;: Establezca el tamaño de la fuente en 30 píxeles.
-font-weight: bold;: Hace que el texto sea negrita.
-color: #333;: Cambia el color del texto a un tono oscuro.
-margin-bottom: 10px;: Agregue un margen inferior de 10 píxeles.
-display: block;: Configure el bloque para ocupar toda la línea.
-width: 100%;: Asegura que el ancho del elemento sea el máximo posible.
-text-align:center;: Centrar el texto horizontalmente.
-
-Entradas de textoinput[type="text"], input[type="password"], input[type="email"], select)
-width: 100%;: Asegúrese de que estas entradas ocupen todo el ancho disponible.
-padding: 10px;: Agrega espacio interior alrededor del texto dentro de las entradas.
-border: 1px solid #ddd;: Dibuja un borde sólido alrededor de las entradas.
-border-radius: 5px;: Redondea las esquinas de las entradas.
-box-sizing: border-box;: Incluye el relleno y el borde en el cálculo total del ancho.
-
-Botón Principal ( BotonPrincipal)
-background-color: #007bff;: Establezca el color de fondo del botón.
-color: white;: Cambia el color del texto a blanco.
-border: none;: Elimina el borde del botón.
-border-radius: 25px;: Redondea las esquinas del botón.
-box-shadow: 0 4px 8px rgba(0,0,0,0.2);: Aplica una sombra al botón.
-cursor: pointer;: Cambia el cursor a una mano cuando se pasa sobre el botón.
-padding: 15px 32px;: Ajusta el relleno interno del botón.
-text-align: center;: Centrar el texto horizontalmente.
-text-decoration: none;: Elimine cualquier decoración del texto, como subrayado.
-font-size: 16px;: Establece el tamaño de la fuente del texto del botón.
-margin: 4px 2px;: Ajusta el margen alrededor del botón.
-transition-duration: 0.4s;: Defina la duración de la transición de efectos visuales.
-display: block;: Configure el bloque para ocupar toda la línea.
-width: 100%;: Asegúrese de que el ancho del botón sea el máximo posible.
-text-align: center;: Centrar el texto horizontalmente.
-
-Enlace Hipervincular ( hyperlink)
-display: block;: Configure el bloque para ocupar toda la línea.
-width: 100%;: Asegura que el ancho del enlace sea el máximo posible.
-text-align: center;: Centrar el texto horizontalmente.*/

@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="estilos.css"/>
     <title>Nuevo Usuario</title>
 </head>
-<body>
+<body class="bodyLogoColor">
     <form id="form1" runat="server">
         <div>
             <asp:Label ID="Label1" runat="server" Text="Ingrese sus datos para registrarse" CssClass="labelPrincipal"></asp:Label>

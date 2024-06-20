@@ -1,34 +1,26 @@
 ﻿<!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Página</title>
-<link rel="stylesheet" type="text/css" href="estilos.css"/></head>
-<body>
-    <header>
-        <div class="menu-panel">
-            <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Productos</a></li>
-                <li><a href="#">Pedidos</a></li>
-                <li><a href="#">Reservas</a></li>
-            </ul>
-        </div>
-        
-        <div class="user-info">
-            <span class="user-name">Santiago Lamot</span>
-            <div class="user-actions">
-                <button class="action-btn">Editar Datos</button>
-                <button class="action-btn">Cerrar Sesión</button>
-            </div>
-        </div>
-    </header>
-    <main>
-        <div>
-            <h1>Bienvenido a Stattapp</h1>
-            <p>Explora nuestros productos y realiza tus pedidos y reservas.</p>
-        </div>
-    </main>
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+</head>
+<body class="bodyBlanco">
+     <form id="form1" runat="server" class="formInicio">
+    <ul>
+        <li><button>Inicio</button></li>
+        <li><button>Productos</button></li>
+        <li><button>Pedidos</button></li>
+        <li><button>Reservas</button></li>
+    </ul>
+    <asp:Label ID="lblNombreApellidoUsuario" runat="server" Text="" CssClass="labelPrincipal"></asp:Label>
+    <ul>
+     <li><button>Editar Datos</button></li>
+     <li><button>Cerrar Sesion</button></li>
+    </ul>
+    <asp:Label ID="Label1" runat="server" CssClass="labelPrincipal" Text="Bienvenido a Starttap"></asp:Label>
+    <p>Explora nuestros productos y realiza tus pedidos y reservas.</p>
+    </form>
 </body>
 </html>
